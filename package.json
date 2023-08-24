@@ -1,0 +1,31 @@
+{
+  "name": "avalore-test-be",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-graphql": "4.11.7",
+    "@strapi/plugin-i18n": "4.11.7",
+    "@strapi/plugin-users-permissions": "4.11.7",
+    "@strapi/strapi": "4.11.7",
+    "better-sqlite3": "8.5.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "73f47cdc-728b-4b0c-afb7-57054e03deae"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
